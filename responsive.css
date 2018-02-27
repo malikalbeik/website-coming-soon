@@ -1,0 +1,53 @@
+@media screen and (orientation: portrait) {
+  .container {
+    margin-top: 10%;
+  }
+  img {
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (orientation: portrait) and (min-width: 600px){
+  img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  h1 {
+    font-size: 62px;
+  }
+  p {
+    font-size: 26px;
+  }
+  ul {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (orientation: landscape) {
+  .container {
+    flex-flow: row;
+    justify-content: center;
+  }
+  img {
+    margin:0;
+    margin-right: 5%;
+  }
+}
+
+
+@media screen and (orientation: landscape) and (min-height: 700px) and (min-width: 700px) {
+  img {
+    max-width: 350px;
+    max-height: 300px;
+  }
+  h1 {
+    font-size: 62px;
+  }
+  p {
+    font-size: 26px;
+  }
+  ul {
+    font-size: 40px;
+  }
+}
