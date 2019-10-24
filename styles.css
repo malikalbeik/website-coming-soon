@@ -32,6 +32,11 @@ img {
   flex-direction: column;
 }
 
+p > a {
+  font-weight: bold;
+}
+
+
 h1 {
   font-size: 46px;
   margin: 10px 0;
@@ -39,8 +44,16 @@ h1 {
 
 p {
   font-size: 26px;
-  margin: 15px 0;
+  margin: 10px 10%;
+  margin-bottom: 0;
+  width: 80%;
 }
+
+.cv-text {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
 
 .social {
    width:100%;

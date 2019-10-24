@@ -13,7 +13,7 @@
     max-height: 300px;
   }
   h1 {
-    font-size: 62px;
+    font-size: 46px;
   }
   p {
     font-size: 26px;
@@ -41,8 +41,11 @@
     max-width: 350px;
     max-height: 300px;
   }
+  .content {
+    width: 50%;
+  }
   h1 {
-    font-size: 62px;
+    font-size: 46px;
   }
   p {
     font-size: 26px;
